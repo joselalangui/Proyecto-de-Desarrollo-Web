@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/joselalangui/Proyecto-de-Desarrollo-Web/issues"
   },
-  "homepage": "https://github.com/joselalangui/Proyecto-de-Desarrollo-Web#readme"
+  "homepage": "https://github.com/joselalangui/Proyecto-de-Desarrollo-Web#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
