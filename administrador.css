@@ -115,3 +115,22 @@
     align-items: center;
     display: flex;
 }
+
+
+@media screen and (min-width: 700px){
+    .admin_contenedor{
+        display: grid;
+        grid-template-columns: 20% 80%;
+
+    }
+    .admin_navegador {
+        grid-column: 1 / span 3;
+    }
+    .admin_footer {
+        grid-column: 1 / span 3;
+        background-color: #444;
+        background-size: cover;
+        
+
+    }
+}
