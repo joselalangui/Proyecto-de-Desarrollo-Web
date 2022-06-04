@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.admin_contenedor {
+    height: 100vh;
+}
