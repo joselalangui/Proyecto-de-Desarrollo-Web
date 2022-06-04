@@ -36,3 +36,82 @@
     background:rgb(136, 132, 187); 
     border-radius: 50px 0;
 }
+.Manzana1, .Manzana2, .Manzana3, .Manzana4, .Manzana5 {
+    margin: 0;
+} 
+
+.Manzana1 {
+    grid-column: 3;
+    grid-row: 1 / span 3;
+}
+
+.Manzana3 {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+}
+
+.Manzana2, .Manzana4, .Manzana5 {
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Manzana4 {
+    grid-row: 1;
+}
+.Manzana2 {
+    grid-row: 3;
+}
+.Manzana2 li, .Manzana4 li, .Manzana5 li {
+    display: inline-block;
+    margin: 0;
+    padding: 4% 4% 0 4%;
+}
+
+.Manzana1 .v1 {
+    border: #444 solid;
+    margin: 0 0 0 15%;
+    padding: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Manzana3 .v1 {
+    border: #444 solid;
+    margin: 0 15% 0 0;
+    padding: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Manzana2 .v5 {
+    border: #444 solid;
+    margin: 0 0 15% 0;
+    padding: 300%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Manzana4 li {
+    padding: 0 4% 4% 4%;
+}
+.Manzana4 .v5 {
+    border: #444 solid;
+    margin: 0 0 15% 0;
+    padding: 300%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Manzana5 li {
+    padding: 4%;
+}
+.Manzana5 .v5 {
+    border: #444 solid;
+    margin: 15% 0;
+    padding: 300%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
