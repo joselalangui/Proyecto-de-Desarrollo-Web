@@ -7,16 +7,28 @@
         <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
     </head>
     <body>
-        <h1>Sistema de Informacion para <br>Pagos de Alicuotas en Urbanizaciones</h1>
-        <div>
-            <h2>SIPAU</h2>
-            <input placeholder="Usuario" name="Nombre de usuario" required="required">
-            <input placeholder="Contrasena" type="password" required="required">
-            <select>
-                <option value="1">Residente</option>
-                <option value="2">Administrador</option>
-            </select>
-            <input type="submit">
+        <div class="flex__container">
+            <form class="form">
+                <div class="form__selection">
+                    <h2>SIPAU</h2>
+                </div>
+                <div></div>
+                <div class="form__selection">
+                    <input placeholder="Usuario" name="Nombre de usuario" required="required" class="form__input">
+                </div>
+                <div class="form__selection">
+                    <input placeholder="Contrasena" type="password" required="required" class="form__input">
+                </div>
+                <div class="form__selection">
+                    <select class="form__input">
+                        <option value="1">Residente</option>
+                        <option value="2">Administrador</option>
+                    </select>
+                </div>
+                <div class="form__selection">
+                    <input type="submit" class="form__input">
+                </div>
+            </form>
         </div>
     </body>
 </html>
